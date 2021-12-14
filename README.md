@@ -1,27 +1,29 @@
-# Untitled
+# JB Hunt Operations Exam #3
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.14.
+## Background
 
-## Development server
+You own a small cinema and looking to expand to the online ticketing space.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Requirements
+Create an application that allows the users to pick seats and count them on the "selected" counter.
 
-## Code scaffolding
+The application needs to have two routes. 
+Landing page: The code that is currently in app.component should route to /select
+Purchase page: Routes to /purchase
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Landing Page
+When the user clicks a seat, the number shows next to selected:
+ex: Selected: 1, 4, 10
 
-## Build
+Once the user has selected and clicked the buy button, they are routed to the purchase page.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+### Purchase Page
+- Should show a summary of the previously selected seats from /select.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Should include a form that includes the buyers first and last name as well as credit card information.
+All fields should be required.
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Unit Tests
+This application should be unit tested!
