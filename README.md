@@ -7,9 +7,7 @@ You own a small cinema and looking to expand to the online ticketing space.
 ## Requirements
 Create an application that allows the users to pick seats and count them on the "selected" counter.
 
-The application needs to have two routes. 
-Landing page: The code that is currently in app.component should route to /select
-Purchase page: Routes to /purchase
+The application needs to have two pages: '/select' and '/purchase'
 
 ### Landing Page
 When the user clicks a seat, the number shows next to selected:
